@@ -1,0 +1,20 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* src/App.css */
+body {
+  font-family: 'Neutra Text', sans-serif; /* Change to Neutra Text */
+  background-color: #ebebeb; /* Grey */
+  color: #322625; /* Black */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding: 20px;
+}
