@@ -12,7 +12,7 @@ This app uses the [DummyJSON API](https://dummyjson.com/) for product and user d
 
 ### **1. Product and User Pages**
 - **Reusable Component**: Both the **Users** and **Products** pages share a single component (`DataPage.js`), with different data types controlled by passing a prop (`type`).
-- **Dynamic Filtering**: The app has dynamic filters that let you filter products by category or brand, and users by name or email. For the column based filtering I have disabled it for porducts as the document of dummyjson app does not seem to make the filtering available for porduct.
+- **Dynamic Filtering**: The app has dynamic filters that let you filter products by category or brand, and users by name or email. For the column based filtering I have disabled it for products as the document of dummyjson app does not seem to make the filtering available for products.
 - **Client-Side Search**: It includes a search bar that filters data based on input, searching across all fields.
 - **Pagination**: You can set how many results per page to display (5, 10, 20, or 50) and navigate through multiple pages of results.
 
